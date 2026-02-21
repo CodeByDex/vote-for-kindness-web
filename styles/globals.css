@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #3c5704;
+  --brand-light: #edffcb;
+}
+
+body {
+  background-color: var(--brand-light);
+}
+
+body {
+  background-color: var(--brand);
+  color: var(--brand-light);
+}
+
+/* Small helpers (brand is dark background; text-brand becomes the light on-brand color) */
+.bg-brand { background-color: var(--brand) !important; }
+.bg-brand-light { background-color: var(--brand-light) !important; }
+.text-brand { color: var(--brand-light) !important; }
+.border-brand { border-color: var(--brand-light) !important; }
+
+/* Light-colored shadow using the light brand color for subtle lift on dark backgrounds */
+.shadow-brand {
+  box-shadow: 0 10px 15px -3px rgba(237,255,203,0.12), 0 4px 6px -4px rgba(237,255,203,0.06);
+}
