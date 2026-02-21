@@ -67,8 +67,10 @@ export default function Home() {
 
           <footer className="border-t mt-12 py-6 bg-brand">
             <div className="max-w-4xl mx-auto px-6 text-center text-sm text-brand">
-              <div>Paid for by Friends of Chris Caldwell</div>
-              <div className="mt-2">© 2026 Chris Caldwell — Findlay, Ohio</div>
+              <div>© 2026 Chris Caldwell — Findlay, Ohio</div>
+              <div className="mt-2">
+                <a href="https://github.com/CodeByDex/vote-for-kindness-web" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">Website by CodeByDex</a>
+              </div>
             </div>
           </footer>
       </div>
