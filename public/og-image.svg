@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#3c5704" />
+  <rect x="60" y="60" width="1080" height="510" rx="12" fill="#edffcb" opacity="0.06" />
+  <g fill="#edffcb" font-family="Inter, system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial" text-anchor="start">
+    <text x="120" y="220" font-size="64" font-weight="700">Vote for Kindness</text>
+    <text x="120" y="300" font-size="36" font-weight="600">Chris Caldwell — Candidate for Mayor, Findlay, OH (2027)</text>
+  </g>
+</svg>

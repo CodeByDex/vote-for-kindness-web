@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://voteforkindness.com/sitemap.xml
+Host: voteforkindness.com
